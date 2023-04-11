@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Varela&family=Varela+Round&display=swap');
+ 
+@import url('/../assets/Halimun.ttf');
+
+.container {
+  width: 100vw;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+.menuTop {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  padding: 0 10vw; 
+  padding-top: 10vh;
+}
+
+.title {
+  font-family: 'Halimun';
+  font-size: 24px;
+  margin-left: 31vw; 
+  margin-top: 1rem;
+}
+
+.menuIcon {
+  transform: scale(1.2); 
+}
+
+.menuUnder {
+  width: 100vw;
+  display: flex;
+  justify-content: space-evenly;
+
+  padding-top: 10.25vh;
+}
+
+.menuUnderItem {
+  margin: 0 1rem;
+  font-size: 1.2em; font-family: 'Roboto Condensed', sans-serif;
+  animation: pulse 175ms ease-in-out;
+}
+@keyframes pulse {
+  0% {
+    opacity: 0;
+  }
+  50% { 
+    opacity: 0.4;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .title {
+    margin-left: 0%;
+  } 
+  .menuTop {
+    padding-top: 2vh;
+  }
+  .menuUnder {
+    padding-top: 0; 
+  }
+}
+
