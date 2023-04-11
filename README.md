@@ -4,7 +4,7 @@
 
 GinettePT is a React front-end project that provides a visually appealing interface for interacting with the ChatGPT API. It allows users to chat with the AI model and see the responses in real-time. The messages can be persisted in JSON format, and the application also features typing indicators to enhance the user experience.
 
-## ![Screenshot 2023-04-11 at 12.05.09 AM](assets/Screenshot 2023-04-11 at 12.05.09 AM.png)
+# <img src="assets/Screenshot 2023-04-11 at 12.05.09 AM.png" width="300px">
 
 ## Features
 
