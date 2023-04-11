@@ -40,7 +40,7 @@ ____
 1. Clone this repository:
 
 ```
-git clone https://github.com/laura-salas/ginettept.git
+git clone https://github.com/laura-salas/GinettePT.git
 ```
 
 2. Navigate to the project directory:
