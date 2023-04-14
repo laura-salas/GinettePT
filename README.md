@@ -37,16 +37,12 @@ ____
 
 (this is done from a command line)
 
-1. Clone this repository:
+1. Download and unzip the `.zip` file from the releases page (you can also [click here](https://github.com/laura-salas/GinettePT/releases/tag/release-build))
+
+2. Open a terminal, and navigate to the project directory:
 
 ```
-git clone https://github.com/laura-salas/GinettePT.git
-```
-
-2. Navigate to the project directory:
-
-```
-cd ginettept
+cd ginettept1_0_0.zip
 ```
 
 3. Open the `.env` file (located in the root directory) in your favorite editor, and enter your open ai API KEY (again - if you don't yet have one see see [this](https://platform.openai.com/docs/quickstart)) where it says `YOUR_API_KEY_HERE`.  Save the file. NOTE: this is all stored locally - this information will never leave your laptop. **Do not share your API key with anyone!**
